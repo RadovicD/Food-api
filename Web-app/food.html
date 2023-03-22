@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+ <body>
+     <!--Nav-bar odluciti se za boju...............................................-->
+    <nav>
+      <ul>
+        <li><a class="active" href="/">Home</a></li>
+       <li><a href="/food.html">Food</a></li>
+       <li><a href="/about.html">About</a></li>
+     </ul>
+    </nav>
+    <!--Food main page ovde pocinje ...............................................-->
+    <div class = "container">
+      <div class = "meal-wrapper">
+        <div class = "meal-search">
+          <h2 class = "title">Enter a ingredient to get a meal</h2>  
+          <div class = "meal-search-box">
+            <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+            <button type = "submit" class = "search-btn btn" id = "search-btn">
+              <i class = "fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+  
+        <div class = "meal-result">
+          <h2 class = "title">Your Search Results:</h2>
+          <div id= "meal">
+          </div>
+        </div>
+  
+  
+        <div class = "meal-details">
+          <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+            <i class = "fas fa-times"></i>
+          </button>
+  
+          <!-- kutija za obroke ..........-->
+          <div class = "meal-details-content">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+    <!--Footer ovde pocinje ...............................................-->
+   <footer class="footer-distributed">
+
+    <div class="footer-left">
+  
+      <h3>Company<span>logo</span></h3>
+  
+        <p class="footer-links">
+          <a href="/">Home</a>
+          ·
+          <a href="/food.html">Food</a>
+          ·
+          <a href="/drinks.html">Drinks</a>
+          ·
+          <a href="#">About</a>
+        </p>
+
+        <p class="footer-company-name">Company Name © 2015</p>
+
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://github.com/"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+    
+      </div>
+   </footer>
+   
+  <script src = "script.js"></script>
+  </body>
+</html>
